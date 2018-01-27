@@ -186,6 +186,7 @@
 
 		.chart-placeholder {
 			height: 45vw;
+			max-height: 500px;
 		}
 	}
 </style>
