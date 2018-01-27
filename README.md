@@ -1,7 +1,3 @@
-# eightsleep
-
-> Frontend Engineering Challenge
-
 ## Build Setup
 First clone the repo and `cd` into the project folder. Then:
 ```
