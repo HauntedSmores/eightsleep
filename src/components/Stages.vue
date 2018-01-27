@@ -87,13 +87,13 @@
 					duration: 2000
 				});
 
+
 				if (this.stage_chart != null) {
 					this.stage_chart.data.labels = labels;
 					this.stage_chart.data.datasets[0].data = data;
 					this.stage_chart.backgroundColor = bgc;
 					this.stage_chart.update();
 				} else {
-					console.log('...whats going on');
 					this.stage_chart = new Chart(ctx, {
 						type: 'bar',
 					    data: {
