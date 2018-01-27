@@ -1,0 +1,40 @@
+// Buttons
+button, .bttn {
+	font-family: $open_sans;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	border: none;
+	padding: 24px;
+	min-width: 144px;
+	max-width: 100%;
+	line-height: 1;
+	color: $grey_light;
+	background-color: $purple;
+	// border-radius: 6px;
+	outline: none;
+	cursor: pointer;
+	transition: all 300ms;
+
+	&:hover {
+		background-color: $purple_dark;
+		box-shadow: 0px 2px 2px 0px black;
+		color: white;
+	}
+
+	&:active {
+		box-shadow: none;
+	}
+}
+
+.bttn--small {
+	@extend .bttn;
+	font-size: 12px;
+	padding: 12px;
+}
+
+// Panels
+.panel {
+	box-shadow: 0 0 4px 4px rgba(black, 0.2);
+	background-color: $grey;
+}
